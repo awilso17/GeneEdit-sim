@@ -1,8 +1,7 @@
 ########################################################################################################################
 # Functions for the stochastic simulation model GeneFlowRunSimulations
-# to genereate gene edited animals and track the gene flow of resistance alleles through a pig breeding pyramid
+# to genereate gene edited animals and track the propagation of resistance alleles through a pig breeding pyramid
 #
-# AbacusBio Ltd 2018 
 #
 ########################################################################################################################
 
