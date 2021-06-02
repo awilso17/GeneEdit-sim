@@ -3,13 +3,11 @@
 # Pig breeding pyramid stochastic simulation model - script to run simulation replicates
 # calls functions from "GeneFlowModelFcts.R"
 # Epidemiological threshold parameters are defined based on outputs from EpidemiologicalModel.R
-# AbacusBio Ltd 2019 
 #
 ########################################################################################################################
 
 #!/bin/env Rscript
 #setwd("D:/5441")
-#setwd("C:/Users/andre/CDocuments/PostDocs/Jaap/Epimodel_paper/PNAS submission")
 source("GeneFlowModelFcts.R")
 
 # libraries
