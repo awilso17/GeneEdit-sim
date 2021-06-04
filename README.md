@@ -6,7 +6,8 @@ Scripts:
 EpidemiologicalModel.R - R-script to predict impact of gene editing and vaccination on disease prevalence; produces the results for Figures 1-3 in the paper. 
 GeneFlowModelFcts.R - R-script containing the functions for the gene flow simulation model. These are called in GeneFlowRunSimulations.R
 RunGeneFlowSimulations.R - R-script running the gene flow simulation model; produces the results for Figure 5 in the paper, and Table S1
-this models simulates birth, death, genetic selection, and transition of animals between pyramid tiers, the gene editing process the top tear of the pig production pyramid, the genotyping and selection processes in subsequent tiers, and tracks the gene flow of resistance alleles through a pig production pyramid
+this models simulates birth, death, genetic selection, and transition of animals between pyramid tiers, the gene editing process the top tear of the pig production pyramid, the genotyping and selection processes in subsequent tiers, and tracks the gene flow of resistance alleles through a pig production pyramid. 
+Note that the GeneFlow simulation model is memory intense. We found that to run the full model for the full simulated time period, about 80Gb of memory are needed
 
 
 Data - Results:
